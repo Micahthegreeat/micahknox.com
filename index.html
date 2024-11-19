@@ -1,5 +1,37 @@
+<!--https://www.w3schools.com/html/html_images_imagemap.asp   mapable image clicking-->
+
+
 <!DOCTYPE html>
 <html lang="en">
+<style>
+    .picture {
+        width:5%;  
+        display:inline-block;
+    }
+    .link {
+    width:30%;  
+    display:inline-block;
+    }
+    a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+    }
+
+    a:visited {
+      color: black;
+      background-color: transparent;
+      text-decoration: none;
+    }
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+
+</style>
 <head>
     <!--
     redirects to another website
@@ -13,9 +45,30 @@
 <body>
     
     <!--<p><a href="wishlist.html">HTML Images</a></p>-->
+    <div class = "picture">
     <a href="https://www.coolmathgames.com">
-    <img src="images/micah (1).png" alt="HTML tutorial" style="width:86px;height:156px;">
+    <img src="images/micah (1).png" title = "Cool Math Games" alt="HTML tutorial" style="width:86px;height:156px;">
     </a>
+    </div>
+
+
+    <a href = 'resume.html' title = "Micah's Resume">
+    <div style="background-color:#FFF4A3;" class = "link">
+        <h2>Resume</h2>
+      </div>
+    </a>
+    <a href = 'links.html' title = "Micah's Contact Info and Links">
+    <div style="background-color:#FFC0C7;" class = "link">
+        <h2>Contact Info and Links</h2>
+      </div>
+    </a>
+    <a href = 'tbd.html' title = 'TBD'>
+    <div style="background-color:#D9EEE1;" class = "link">
+        <h2>TBD</h2>
+      </div>
+    </a>
+    
     <h1>HELLO</h1>
+
 </body>
 </html>
