@@ -2,12 +2,12 @@ body {
     background-color: rgba(210, 180, 140, 0.3);
   }
 .picture {
-      
+    width:8%;  
     display:inline-block;
 }
 .link {
-    width:27%;  
-    display:inline-block;
+    width:95%;  
+    
     /*height: 156px;*/
     
 }
