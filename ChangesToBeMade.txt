@@ -1,0 +1,2 @@
+fix the sizing issue at top of page on computer
+Make the buttons have animations. Companies like that, right?
