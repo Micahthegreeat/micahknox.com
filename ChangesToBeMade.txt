@@ -1,3 +1,3 @@
-fix the sizing issue at top of page on computer
+fix the sizing issue at top of page on computer check ish
 Make the buttons have animations. Companies like that, right?
 navigationn menu(those 3 lines) (maby)
