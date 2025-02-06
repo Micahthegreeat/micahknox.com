@@ -1,0 +1,11 @@
+/* Initially hide the image */
+.desktop-image {
+    display: none;
+  }
+  
+  /* When the screen width is at least 768px (typically a desktop or tablet), show the image */
+  @media (min-width: 1000px) {
+    .desktop-image {
+      display: block;
+    }
+  }
