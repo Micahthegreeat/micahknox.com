@@ -6,10 +6,13 @@ body {
     display:inline-block;
 }
 .link {
-    width:27%;  
+    width:26%;  
     display:inline-block;
     /*height: 156px;*/
     
+}
+a {
+    padding: 2em;
 }
 a:link {
     color: black;
@@ -30,4 +33,8 @@ a:hover {
 }
 .textblock{
     background-color: white;
+}
+nav {
+    text-align: center;
+    font-weight: bold;
 }
