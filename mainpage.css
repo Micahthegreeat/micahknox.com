@@ -11,6 +11,9 @@ body {
     /*height: 156px;*/
     
 }
+a {
+    padding: 2em;
+}
 a:link {
     color: black;
     background-color: transparent;
@@ -30,4 +33,8 @@ a:hover {
 }
 .textblock{
     background-color: white;
+}
+nav {
+    text-align: center;
+    font-weight: bold;
 }

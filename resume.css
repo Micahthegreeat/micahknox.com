@@ -2,10 +2,13 @@
 .desktop-image {
     display: none;
   }
-  
-  /* When the screen width is at least 768px (typically a desktop or tablet), show the image */
-  @media (min-width: 1000px) {
-    .desktop-image {
-      display: block;
-    }
+  body {
+    background-color: rgba(210, 180, 140, 0.3);
   }
+iframe {
+  width: 100%; 
+  max-width: 800px; 
+  height: calc(90% - 0px); 
+  border:2px solid black;
+}
+  
