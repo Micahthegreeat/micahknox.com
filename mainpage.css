@@ -35,6 +35,7 @@ a:hover {
 nav {
     text-align: center;
     font-weight: bold;
+    padding-right: 15%;
 }
 iframe {
   width: 100%; 
