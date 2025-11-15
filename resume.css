@@ -1,10 +1,10 @@
 /* Initially hide the image */
-.desktop-image {
+/*.desktop-image {
     display: none;
-  }
-  body {
-    background-color: rgba(210, 180, 140, 0.3);
-  }
+  }*/
+body {
+  background-color: rgba(210, 180, 140, 0.3);
+}
 iframe {
   width: 100%; 
   max-width: 800px; 

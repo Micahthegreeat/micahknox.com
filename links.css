@@ -6,10 +6,7 @@ body {
     display:inline-block;
 }
 .link {
-    width:95%;  
-    
-    /*height: 156px;*/
-    
+    width:95%;      
 }
 a:link {
     color: black;

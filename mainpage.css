@@ -7,9 +7,7 @@ body {
 }
 .link {
     width:26%;  
-    display:inline-block;
-    /*height: 156px;*/
-    
+    display:inline-block;    
 }
 a {
     padding: 2em;
@@ -37,4 +35,10 @@ a:hover {
 nav {
     text-align: center;
     font-weight: bold;
+}
+iframe {
+  width: 100%; 
+  max-width: 800px; 
+  height: calc(90% - 0px); 
+  border:2px solid black;
 }
