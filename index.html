@@ -8,11 +8,9 @@
 <body>
     
   <nav></nav>
+  <script> fetch('./navbar.html').then(r => r.text()).then(m => document.querySelector('nav').innerHTML = m ); </script>
   <main class = 'textblock' id = 'aboutme'></main>
-  <script src="./navBar.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/showdown/dist/showdown.min.js"></script>
-  <script>
-      fetch('/README.md').then(r=>r.text()).then(m=>aboutme.innerHTML=new showdown.Converter().makeHtml(m));
-  </script>
+  <script> fetch('/README.md').then(r=>r.text()).then(m=>aboutme.innerHTML=new showdown.Converter().makeHtml(m)); </script>
 </body>
 </html>

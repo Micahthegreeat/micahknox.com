@@ -9,5 +9,5 @@
       width="100%"
       height="80%">
     </object>
-  <script src="./navBar.js"></script>
+  <script> fetch('./navbar.html').then(r => r.text()).then(m => document.querySelector('nav').innerHTML = m ); </script>
 </body>
