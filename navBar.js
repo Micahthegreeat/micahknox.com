@@ -4,8 +4,6 @@ navBar.innerHTML = `<div class = "picture" >
         <img src="images/micah (1).png" title = "main page" alt="Picture of my face."  style="width:86px;height:156px;">
       </a>  
     </div>
-
-
     <a href = 'resume.html' title = "Resume">
       Resume
     </a>
