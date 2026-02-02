@@ -1,12 +1,7 @@
-<!--https://www.w3schools.com/html/html_images_imagemap.asp   mapable image clicking-->
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <link rel="stylesheet" href="mainpage.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Micah Knox</title>
     <link rel="icon" type="image/x-icon" href="/images/micah.png">
 </head>
@@ -14,59 +9,26 @@
     
   <nav>
     <div class = "picture" >
-      <a href="https://www.coolmathgames.com">
+      <a href="index.html">
         <img src="images/micah (1).png" title = "Cool Math Games" alt="Picture of my face."  style="width:86px;height:156px;">
       </a>  
     </div>
 
 
-    <a href = 'resume.html' title = "Micah's Resume">
+    <a href = 'resume.html' title = "Resume">
       Resume
     </a>
-    <a href = 'links.html' title = "Micah's Contact Info and Links">
+    <a href = 'links.html' title = "Contact Info and Links">
       Contact Info and Links
     </a>
-    <!-- to be implemented when i think of a third thing i want to show off.
-      <a href = 'tbd.html' title = 'TBD' style = "width">
-        TBD
-      </a>
-    -->
   </nav>
+    <main class = 'textblock' id = 'aboutme'>
+  
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/showdown/dist/showdown.min.js"></script>
 
-
-
-
-
-    <div class = 'textblock'>
-    <h1>ABOUT ME</h1>
-    <p>
-    </p>
-    <p>
-      Intro
-    </p>
-    <p>
-    </p>
-    <p>
-      software dev
-    </p>
-    <p>
-    </p>
-    <p>
-      Iowa State
-    </p>
-    <p>
-    </p>
-    <p>
-      Conclusion
-    </p>
-    <p>
-    <br>
-    </p>
-    </div>
-
-
-
-
-    <p></p><a href="https://github.com/Micahthegreeat/micahknox.com" title = "The code for this site"><p>This site was made on Github here</p></a>
+    <script>
+        fetch('/README.md').then(r=>r.text()).then(m=>aboutme.innerHTML=new showdown.Converter().makeHtml(m));
+    </script>
 </body>
 </html>

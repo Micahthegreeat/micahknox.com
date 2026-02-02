@@ -1,1 +1,12 @@
-micahknox.com
+ABOUT ME
+When I was a kid in Cub Scouts, there was a requirement where you had to learn about a job and do something related to it. I decided to learn about being a programmer, so I downloaded a block-coding application and programmed a small game. It was a really bad game, but I enjoyed making it so much that I was hooked.
+
+From then on, I decided that I wanted to program as a job. Being the devoted kid I was, I kept programming things through middle school. In my first year of middle school, I learned about LEGO robotics. I liked LEGOs, and I liked coding, so I figured, why not try out? After making the team, this became my first experience doing any sort of major coding, especially coding as part of a team.
+
+After doing LEGO robotics for three years as a middle schooler, I learned about FIRST Tech Challenge, which was the next step up from LEGO robotics. The local high school team was recruiting heavily, and they were happy to have me join for my high school years. My first year on the team was fairly uneventful. I had joined the golf team, so I missed the first month of the six-month season. When I was more available to attend practices, I discovered that everyone else on the programming team had experience programming in Java (the language we used), except for me. This led me to spend most of my first year on the team learning how to program.
+
+My second year was when I was able to really make changes to the code and contribute meaningfully. I finally understood enough of the codebase to handle simpler tasks like changing routes and tweaking controls. This helped the team a lot because we were small, and the other main programmer was often busy during meets handling his responsibilities as a driver. There were times when I had to change routes under pressure after something went wrong in the previous round, with drivers rushing between matches to get fixes implemented. This continued through my third year, with gradual increases in skill along the way.
+
+Going into my final year on the robotics team, I knew ahead of time that I would need to train others to take over programming after I left. I took on one of my coolest projects by programming methods that allowed other team members to write their own programs using encoders, something that had previously been difficult. This approach was what we used to perform very well at our first and second meets of the season.
+
+Following my time in robotics, I went to Iowa State University as a computer science major. I was able to learn programming in a way that was not exclusively tied to robotics, and I enjoyed it in a way I hadn’t since I was a Cub Scout learning to code for the first time.
