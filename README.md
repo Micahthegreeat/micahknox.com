@@ -1,4 +1,5 @@
-ABOUT ME
+# ABOUT ME
+
 When I was a kid in Cub Scouts, there was a requirement where you had to learn about a job and do something related to it. I decided to learn about being a programmer, so I downloaded a block-coding application and programmed a small game. It was a really bad game, but I enjoyed making it so much that I was hooked.
 
 From then on, I decided that I wanted to program as a job. Being the devoted kid I was, I kept programming things through middle school. In my first year of middle school, I learned about LEGO robotics. I liked LEGOs, and I liked coding, so I figured, why not try out? After making the team, this became my first experience doing any sort of major coding, especially coding as part of a team.

@@ -7,28 +7,12 @@
 </head>
 <body>
     
-  <nav>
-    <div class = "picture" >
-      <a href="index.html">
-        <img src="images/micah (1).png" title = "Cool Math Games" alt="Picture of my face."  style="width:86px;height:156px;">
-      </a>  
-    </div>
-
-
-    <a href = 'resume.html' title = "Resume">
-      Resume
-    </a>
-    <a href = 'links.html' title = "Contact Info and Links">
-      Contact Info and Links
-    </a>
-  </nav>
-    <main class = 'textblock' id = 'aboutme'>
-  
-  </main>
+  <nav></nav>
+  <main class = 'textblock' id = 'aboutme'></main>
+  <script src="./navBar.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/showdown/dist/showdown.min.js"></script>
-
-    <script>
-        fetch('/README.md').then(r=>r.text()).then(m=>aboutme.innerHTML=new showdown.Converter().makeHtml(m));
-    </script>
+  <script>
+      fetch('/README.md').then(r=>r.text()).then(m=>aboutme.innerHTML=new showdown.Converter().makeHtml(m));
+  </script>
 </body>
 </html>

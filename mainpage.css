@@ -1,45 +1,3 @@
-<<<<<<< Updated upstream
-body {
-    background-color: rgba(210, 180, 140, 0.3);
-  }
-.picture {
-      
-    display:inline-block;
-}
-.link {
-    width:26%;  
-    display:inline-block;
-    /*height: 156px;*/
-    
-}
-a {
-    padding: 2em;
-}
-a:link {
-    color: black;
-    background-color: transparent;
-    text-decoration: none;
-}
-
-a:visited {
-  color: black;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-a:hover {
-    color: red;
-    background-color: transparent;
-    text-decoration: none;
-}
-.textblock{
-    background-color: white;
-}
-nav {
-    text-align: center;
-    font-weight: bold;
-}
-=======
 body {
     background-color: rgba(210, 180, 140, 0.3);
   }
@@ -85,4 +43,6 @@ iframe {
   height: calc(90% - 0px); 
   border:2px solid black;
 }
->>>>>>> Stashed changes
+#aboutme {
+    padding-bottom: .1em;
+}
