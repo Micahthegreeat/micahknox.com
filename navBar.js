@@ -1,7 +1,7 @@
 const navBar = document.querySelector('nav');
 navBar.innerHTML = `<div class = "picture" >
       <a href="index.html">
-        <img src="images/micah (1).png" title = "Cool Math Games" alt="Picture of my face."  style="width:86px;height:156px;">
+        <img src="images/micah (1).png" title = "main page" alt="Picture of my face."  style="width:86px;height:156px;">
       </a>  
     </div>
 
