@@ -38,6 +38,7 @@ nav {
     text-align: center;
     font-weight: bold;
     padding-right: 15%;
+    min-height: 64px;
 }
 #aboutme {
     padding-bottom: .1em;
