@@ -1,0 +1,23 @@
+<head>
+  <link rel="stylesheet" href="mainpage.css">
+  <link rel="stylesheet" href="https://recipes.micahknox.com/recipes.css">
+</head>
+<body>
+  <nav> </nav>
+    <header>
+    <a href="index.html" id="home-link">
+      <h1 id="recipe-title">Loading...</h1>
+      <img id="recipe-image" class="mainPicture" alt="Recipe image" />
+    </a>
+  </header>
+
+  <main>
+    <h2 id = "recipeBy"></h2>
+    <table id="ingredients-table" class="ingredients"></table>
+
+    <div id="steps"></div>
+  </main>
+
+  <script> fetch('./navbar.html').then(r => r.text()).then(m => document.querySelector('nav').innerHTML = m ); </script>
+  <script type = 'module' src="https://recipes.micahknox.com/recipes.js"></script>
+</body>
