@@ -1,9 +1,10 @@
 <head>
-  <link rel="stylesheet" href="mainpage.css">
+  <link rel="stylesheet" href="css/mainpage.css">
+  <link rel="stylesheet" href="css/resume.css">
 </head>
 <body>
   <nav> </nav>
     <main></main>
-  <script> fetch('./navbar.html').then(r => r.text()).then(m => document.querySelector('nav').innerHTML = m ); </script>
-  <script> fetch('./resume_print.html').then(r => r.text()).then(m => document.querySelector('main').innerHTML = m ); </script>
+  <script> fetch('./html_fluff/navbar.html').then(r => r.text()).then(m => document.querySelector('nav').innerHTML = m ); </script>
+  <script> fetch('./html_fluff/resume.html').then(r => r.text()).then(m => document.querySelector('main').innerHTML = m ); </script>
 </body>

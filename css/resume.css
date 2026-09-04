@@ -1,0 +1,109 @@
+/* Resume layout
+   Designed for US Letter printing. Include this stylesheet from any page:
+   <link rel="stylesheet" href="resume.css">
+*/
+
+.resume-page {
+  width: 8.5in;
+  min-height: 11in;
+  margin: 10 auto;
+  padding: 0.92in 1in 0.55in;
+  box-sizing: border-box;
+  background: #fff;
+  color: #111;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10pt;
+  /* border: 1px solid #ccc;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.18); */
+}
+
+.resume-page,
+.resume-page * {
+  box-sizing: border-box;
+}
+
+.resume-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  height: 0.22in;
+  padding-bottom: 4px;
+  border-bottom: 2px solid #111;
+  margin-bottom: 1px;
+}
+
+.resume-header-left,
+.resume-header-right {
+  font-size: 10pt;
+}
+
+.resume-email {
+  color: #36728a;
+  text-decoration: underline;
+}
+
+.resume-section {
+  border-bottom: 2px solid #111;
+  padding-bottom: 2px;
+  margin-bottom: 1px;
+}
+
+.resume-section-title {
+  font-weight: 700;
+  margin: 0 0 4px;
+}
+
+.resume-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  line-height: 1.45;
+  min-height: 0.20in;
+}
+
+.resume-left {
+  min-width: 0;
+}
+
+.resume-right {
+  flex-shrink: 0;
+  margin-left: 20px;
+  text-align: right;
+}
+
+.resume-indent {
+  padding-left: 9px;
+}
+
+.resume-bold {
+  font-weight: 700;
+}
+
+.resume-tight {
+  line-height: 1.4;
+}
+
+.resume-editable {
+  outline: none;
+}
+
+.resume-editable:focus {
+  background: #fffde8;
+}
+
+@media print {
+  .resume-page {
+    width: 8.5in;
+    height: 11in;
+    min-height: 11in;
+    margin: 0;
+    padding: 0.92in 1in 0.55in;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.18);
+  }
+
+  @page {
+    size: Letter;
+    margin: 0;
+  }
+}
