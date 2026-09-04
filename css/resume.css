@@ -83,14 +83,6 @@
   line-height: 1.4;
 }
 
-.resume-editable {
-  outline: none;
-}
-
-.resume-editable:focus {
-  background: #fffde8;
-}
-
 @media print {
     body * {
         visibility: hidden;
