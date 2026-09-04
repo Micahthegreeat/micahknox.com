@@ -92,18 +92,33 @@
 }
 
 @media print {
-  .resume-page {
-    width: 8.5in;
-    height: 11in;
-    min-height: 11in;
-    margin: 0;
-    padding: 0.92in 1in 0.55in;
-    border: 1px solid #ccc;
-    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.18);
-  }
+    body * {
+        visibility: hidden;
+    }
 
-  @page {
-    size: Letter;
-    margin: 0;
-  }
+    .resume-page,
+    .resume-page * {
+        visibility: visible;
+    }
+
+    .resume-page {
+        position: absolute;
+        left: 0;
+        top: 0;
+
+        width: 8.5in;
+        height: 11in;
+        min-height: 11in;
+
+        margin: 0;
+        padding: 0.92in 1in 0.55in;
+
+        border: none;
+        box-shadow: none;
+    }
+
+    @page {
+        size: Letter;
+        margin: 0;
+    }
 }
