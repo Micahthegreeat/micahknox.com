@@ -11,3 +11,5 @@ My second year was when I was able to really make changes to the code and contri
 Going into my final year on the robotics team, I knew ahead of time that I would need to train others to take over programming after I left. I took on one of my coolest projects by programming methods that allowed other team members to write their own programs using encoders, something that had previously been difficult. This approach was what we used to perform very well at our first and second meets of the season.
 
 Following my time in robotics, I went to Iowa State University as a computer science major. I was able to learn programming in a way that was not exclusively tied to robotics, and I enjoyed it in a way I hadn’t since I was a Cub Scout learning to code for the first time.
+
+visit merch.micahknox.com
