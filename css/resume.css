@@ -16,7 +16,9 @@
   /* border: 1px solid #ccc;
   box-shadow: 0 4px 18px rgba(0, 0, 0, 0.18); */
 }
-
+.my-name {
+  font-size: 12pt;
+}
 .resume-page,
 .resume-page * {
   box-sizing: border-box;
